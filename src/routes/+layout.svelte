@@ -1,12 +1,11 @@
 <script>
     import NavBar from "./NavBar.svelte";
-    export const prerender = true;
 </script>
 
 <NavBar> </NavBar>
 
 <svelte:head>
-    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </svelte:head>
 
 
